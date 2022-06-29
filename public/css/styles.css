@@ -1,6 +1,5 @@
-
 body {
-  background-color: #E8ECEF;
+    background-color: #E8ECEF;
 }
 
 .centered {
@@ -9,8 +8,27 @@ body {
 }
 
 .secret-text {
-  text-align: center;
-  font-size: 2rem;
-  color: #fff;
-  background-color: #000;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000;
+}
+
+.container.mt-5 {
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    width: 60%;
+    max-width: 450px;
+    text-align: center;
+    position: relative;
+    padding: 20px 15px;
+    box-shadow: 0 30px 60px 0;
+}
+
+.lead {
+    font-size: 2.25rem;
+}
+
+.form-group {
+    margin: 10px;
 }
